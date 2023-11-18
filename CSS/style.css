@@ -7,10 +7,41 @@
 
 /* UTILITIES */
 
+.flex {
+    display: flex;
+}
 
 /* COMMON */
 
 /* HEADER */
+
+.header {
+    height: 50px;
+    width: 100vw;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
+.header-section {
+    height: 100%;
+    width: 50%;
+    /* DEBUG */
+    border: 1px solid blue;
+}
+
+.header-logo {
+    height: 100%;
+    width: 150px;
+    /* DEBUG */
+    border: 1px solid green;
+}
+
+.header-list {
+    height: 100%;
+    width: 300px;
+    /* DEBUG */
+    border: 1px solid green;
+}
 
 /* MAIN */
 
