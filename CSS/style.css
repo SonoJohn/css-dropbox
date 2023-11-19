@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img {
+    height: fit-content;
+}
+
 /* UTILITIES */
 
 .flex {
@@ -32,6 +36,8 @@
 .header-logo {
     height: 100%;
     width: 150px;
+    justify-content: center;
+    align-items: center;
     /* DEBUG */
     border: 1px solid green;
 }
@@ -42,6 +48,8 @@
     /* DEBUG */
     border: 1px solid green;
 }
+
+.header-button {}
 
 /* MAIN */
 
