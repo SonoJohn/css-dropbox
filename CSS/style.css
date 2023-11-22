@@ -11,12 +11,20 @@
     display: flex;
 }
 
+/* COMMON */
+
 .container-top-bot {
     width: 90%;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* COMMON */
+.container-main {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 
 img {
     object-fit: cover;
@@ -47,7 +55,7 @@ li {
 
 .header {
     height: 50px;
-    width: 100vw;
+    max-width: 1200px;
     color: black;
     /* DEBUG */
     border: 1px solid red;
@@ -91,13 +99,16 @@ li {
 /* MAIN */
 
 .main {
-    justify-content: center;
     margin: 50px 0;
+    max-width: 1200px;
+    /* DEBUG */
+    background-color: aquamarine;
 }
 
 .jumbotron {
     flex-direction: column;
     height: 600px;
+    max-width: 1200px;
     /* DEBUG */
     border: 1px solid red;
 }
@@ -125,6 +136,14 @@ h1 {
     height: 35vh;
     width: 100%;
     object-fit: contain;
+}
+
+/* PLANS SECTION */
+
+.plans-section {
+    height: 1200px;
+    /* DEBUG */
+    border: 1px solid red;
 }
 
 /* FOOTER */
