@@ -109,7 +109,7 @@ li {
     margin: 50px 0;
     max-width: 1200px;
     /* DEBUG */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .jumbotron {
@@ -278,4 +278,47 @@ h1 {
     background-color: white;
 }
 
+/* FAQ */
+.faq-section {
+    height: 400px;
+    /* DEBUG */
+    border: 1px solid red;
+}
+
 /* FOOTER */
+
+.footer-container {
+    max-width: 1200px;
+    padding: 20px 0;
+    color: white;
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-row {
+    height: 200px;
+}
+
+.footer-col {
+    width: calc(100% / 5);
+    padding: 10px;
+    /* DEBUG */
+    /* border: 1px solid blue; */
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.list-footer {
+    margin-bottom: 5px;
+}
+
+.footer-language {
+    padding: 20px 10px;
+    gap: 10px;
+    border-top: 1px solid white;
+    /* DEBUG */
+    /* border: 1px solid blue; */
+}
